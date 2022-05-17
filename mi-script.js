@@ -15,9 +15,11 @@
  let numeroFinal=10;
  // Elimina el código siguiente y codifica la solución
  
- dibujarCirculo()
- dibujarCirculo()
- dibujarCirculo()
+ while (numeroInicial < numeroFinal) {
+  dibujarCirculo();
+  numeroInicial++;
+}
+
 
 
  

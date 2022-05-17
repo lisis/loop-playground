@@ -10,12 +10,19 @@
  */
 
  let numeroFinal = 5;
+ let numeroEntero = 0;
 
  for (let i=-5;i<numeroFinal; i++) {
     console.log("Voy a ejecutar el condicional para el número: " + i)
-    // Modificar a partir de aquí
-    console.log("Soy un número positivo!")
-    console.log("Soy un núemro negativo!")
+    //quiero comprobar si la i es negativa 
+    if (i<0){
+        console.log ("Soy un número negativo")
+    } else if (i==numeroEntero) {
+        console.log ("Soy un número entero") 
+    }
+    else {
+        console.log ("Soy un número positivo")
+    }
 }
 
 /**

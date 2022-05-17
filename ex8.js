@@ -8,7 +8,7 @@
  */
 
 let veces = 5
-let i = 0
+let i = 1
 
 while (i<=veces) {
     console.log("Ejecuto!")
@@ -19,6 +19,6 @@ while (i<=veces) {
  * Pregunta BONUS: 
  * 
  * 
- * - ¿Qué valor BOLEANO toma la expresión i<=veces LA PRIMERA vez que se evalua?
- * - ¿Cuales son los primeros valores de 'i' y de 'veces' la expresión 'i<=veces' vale false ?
+ * - ¿Qué valor BOLEANO toma la expresión i<=veces LA PRIMERA vez que se evalua? T
+ * - ¿Cuales son los primeros valores de 'i' y de 'veces' la expresión 'i<=veces' vale false ? 5
  */
