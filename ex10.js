@@ -27,28 +27,32 @@ let hora_actual = 8;
 let hora_dormir = 24;
 let hora_sim = "¿Qué hace el sim? ";
 
-switch (hora_sim){ 
+do{
+    default : "El sim está en villa Lobo";
+}
+
+while (hora_sim){ 
     case 8:
-    console.log("A las 8, el sim se despierta"),
+    console.log("A las 8, el sim se despierta");
         break;
 
     case 9: 
-    console.log("A las 9, el sim desayuna"),
+    console.log("A las 9, el sim desayuna");
         break;
 
     case 17:
-    console.log("A las 17, el sim hace la siesta"),
+    console.log("A las 17, el sim hace la siesta");
         break;
 
     case 22:
-    console.log("A las 22, el sim cena"),
+    console.log("A las 22, el sim cena");
         break;
 
     case 23:
-    console.log("A las 23, el sim se va a dormir"),  
-        break; 
+    console.log("A las 23, el sim se va a dormir"); 
+        break;
 
-    default = "El sim está en villa Lobo";
+    
 }
 
 
